@@ -19,3 +19,12 @@ https://github.com/chirag127/userscript-install-guide - link it, never duplicate
 ## Test
 
 sctl install ./tiktok-compression-bypass-userscript.user.js, open the target page, run the dry run, then sctl debug console --level error.
+
+<!-- okf-requirement -->
+## OKF documentation requirement (mandatory)
+
+Every repository in this collection MUST ship an Open Knowledge Format bundle in `okf/`.
+
+- Canonical bundle: `repos/own/public/userscripts/okf/` in the `c:\ws` monorepo. Never hand-edit a repo's `okf/` copy.
+- After changing the canonical bundle run `node okf/sync-okf.mjs`; verify with `node okf/sync-okf.mjs --check` (must exit 0).
+- `README.md` must link to `okf/`.

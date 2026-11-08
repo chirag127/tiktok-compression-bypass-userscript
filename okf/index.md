@@ -43,6 +43,16 @@ the concepts below.
 | `account-multiplexing` | scripts/account-multiplexing.md | Cookie/storage identity switching, v1.0.0 |
 | `rate-limit-dance` | scripts/rate-limit-dance.md | fetch/XHR pacing layer, v1.0.0 |
 | `scriptcat-inventory` | scripts/scriptcat-inventory.md | Read-only install drift report, v1.0.0 |
+| `ig-unfollow-nonfollowers-userscript` | scripts/ig-unfollow-nonfollowers-userscript.md | Friendship diff + capped bulk unfollow, v1.0.0 |
+| `ig-story-viewer-userscript` | scripts/ig-story-viewer-userscript.md | Public story viewer, no follow needed, v1.0.0 |
+| `ig-reel-downloader-userscript` | scripts/ig-reel-downloader-userscript.md | Media URL list + sidecar JSON, v1.0.0 |
+| `reddit-mass-delete-userscript` | scripts/reddit-mass-delete-userscript.md | Own comments/posts by sub + date, v1.0.0 |
+
+| `x-mass-unfollow-userscript` | scripts/x-mass-unfollow-userscript.md | Bulk-unfollow on X with a reviewable queue, whitelist and protected-account skip rule. |
+| `x-tweet-deleter-userscript` | scripts/x-tweet-deleter-userscript.md | Delete your own posts by date range and keyword, with a dry-run list and per-tweet log. |
+| `x-thread-export-userscript` | scripts/x-thread-export-userscript.md | Export a whole X thread as Markdown and JSON - author, text, time and media URLs. |
+| `x-media-harvest-userscript` | scripts/x-media-harvest-userscript.md | Collect deduped image and video URLs from an X profile, thread or search, then export a list and manifest. |
+| `gh-bulk-unfollow-userscript` | scripts/gh-bulk-unfollow-userscript.md | Review everyone you follow on GitHub, then unfollow in bulk with a cap and whitelist. |
 
 ## Supporting repos
 
